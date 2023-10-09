@@ -37,4 +37,7 @@ for index, row in tqdm(rows_to_copy.iterrows()):
     shutil.copyfile(file_path, file_path_to)
 
 # to make reqeriments.txt file run the following command
-# pip freeze > requirements.txt
+# pip freeze > requirements.txt 
+# to install the reqeriments.txt file run the following command
+
+
