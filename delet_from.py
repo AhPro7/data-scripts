@@ -24,3 +24,9 @@ for file in tqdm(files_to_delete):
     # delete the file
     os.remove(file_path)
 
+# to update and download the new file from github run the following command
+
+ubuntu@ip-172-31-26-248:~/Desktop$ git add .
+UnboundLocalError
+orgin
+origin
