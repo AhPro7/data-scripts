@@ -82,4 +82,4 @@ audio_dataset = Dataset.from_dict({
 }).cast_column("audio", Audio())
 
 data_set_name = input('Enter the name of the dataset: ')
-audio_dataset.push_to_hub(data_set_name, use_auth_token=hf_token)
+audio_dataset.push_to_hub(data_set_name,)
